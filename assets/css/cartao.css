@@ -22,12 +22,13 @@
     flex-direction: column;
     flex: 1;
     justify-content: space-between;
+    margin-top: 0.5rem;
 }
 
 .titulo-da-noticia {
     font-size: 1.5rem;
     font-weight: bold;
-    margin: .5rem 0;
+    margin: .5rem 0rem;
 
 }
 
@@ -45,9 +46,37 @@
     text-decoration: none;
     border-radius: .5rem;
     margin-top: .5rem;
+    cursor: pointer;
+    border:none;
+    max-width: 100%;
+    font-weight: bold;
 }
 
 .botao-do-cartao:hover{
     background-color: #33339e;
-    color: #bbb
+    color: white
 }
+
+.categoria-da-noticia
+.data-da-noticia
+.autor-da-noticia {
+    font-size: 0.7rem;
+}
+
+.categoria-da-noticia {
+    color: green
+}
+
+.data-da-noticia {
+    color: red
+}
+
+.descricao-da-noticia {
+    margin-bottom: 0.5rem;
+}
+
+.autor-da-noticia {
+    font-style: italic;
+    font-weight: bold;
+}
+
