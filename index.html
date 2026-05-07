@@ -4,35 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=74, initial-scale=1.0" />
     <title>Meu Site de Noticias</title>
-    <script src="./assets/js/login.js"></script>
+    <link rel="stylesheet" href="./assets/css/login/estilo.css" />
+    <script
+      src="https://kit.fontawesome.com/418aafbc16.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/login.js" type="module"></script>
   </head>
   <body>
     <header>
-      <div class = "logo">S</div>
-      <h1 class = "titulo">Meu Site de Noticias</h1>
+      <div class="logo">S</div>
+      <h1 class="titulo">Meu Site de Noticias</h1>
     </header>
     <div class="container">
       <h1>Login</h1>
       <form action="">
-        <div class = "input-grupo">
-          <i class = "fas fa-envelope"></i>
+        <div class="input-grupo">
+          <i class="fas fa-envelope"></i>
           <input type="text" id="email" placeholder="informe seu e-mail" />
         </div>
-        <div class = "input-grupo">
-          <i class = "fas fa-lock">
+        <div class="input-grupo">
+          <i class="fas fa-lock"> </i>
             <input id="senha" type="password" placeholder="informe sua senha" />
-          </i>
+         
         </div>
-        <button
-          onclick="
-            verficarCredenciais();
-            return false;
-          "
-        ><i class = "fas fa-sign-in-alt"></i>
+        <button type="submit">
+          <i class="fas fa-sign-in-alt"></i>
           Entrar
         </button>
       </form>
-      <div class ="links-auxiliares">
+      <div class="links-auxiliares">
         <a href="#">Esqueceu a senha?</a>
         <span>-</span>
         <a href="#">Registre-se</a>
